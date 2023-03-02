@@ -1,0 +1,290 @@
+/* Estilos para el encabezado */
+* {
+  
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    }
+    
+    /* Estilos para las secciones */
+    .dato-personal {
+      text-align: center;
+      font-size: 3rem;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background-color: #f2f2f2;
+      padding: 20px;
+      
+      flex-wrap: wrap;
+      justify-content: space-between;
+      border-bottom: 1px solid #ccc;
+    }
+  
+  
+    
+    /* Estilos para la sección de experiencia laboral */
+    .experiencia-1 article {
+      background-color: #f2f2f2;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    
+    .experiencia-1 article h3 {
+      margin-top: 0;
+    }
+    
+    .experiencia-1 article ul {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  
+    .boton-1{
+      color: white;
+      font-size: 1rem;
+      background:  #333;
+      border-radius: 20px;
+      box-shadow: 6px;
+      margin: 4px 2px;
+      padding: 15px;
+    }
+    .boton-2{
+      color: white;
+      font-size: 1rem;
+      background:  #333;
+      border-radius: 20px;
+      box-shadow: 6px;
+      margin: 4px 2px;
+      padding: 15px;
+    }
+    
+    /* Estilos para la sección de educación */
+    .educacion-1 article {
+      background-color: #f2f2f2;
+    }
+
+
+    #trabajo1 {
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+          
+
+    }
+
+    #trabajo2 {
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+          
+
+    }
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.skill {
+  background: linear-gradient(105deg, rgba(255,255,255,.2) 50%, rgba(51,56,57,1) 1%);
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 30%;
+  min-width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-1 {
+    background: linear-gradient(105deg, rgba(255,255,255,.2) 50%, rgba(51,56,57,1) 1%);
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 30%;
+    min-width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    
+  }
+.skill-2 {
+    background: linear-gradient(105deg, rgba(255,255,255,.2) 60%, rgba(51,56,57,1) 1%);
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 30%;
+    min-width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  .skill-3 {
+    background: linear-gradient(105deg, rgba(255,255,255,.2) 40%, rgba(51,56,57,1) 1%);
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 30%;
+    min-width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  .skill-4 {
+    background: linear-gradient(105deg, rgba(255,255,255,.2) 20%, rgba(51,56,57,1) 1%);
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 30%;
+    min-width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  .skill-5 {
+    background: linear-gradient(105deg, rgba(255,255,255,.2) 1%, rgba(51,56,57,1) 1%);
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 30%;
+    min-width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+
+.skill:hover {
+  transform: translateY(-5px);
+}
+
+.skill h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.skill p {
+  margin-bottom: 0;
+}
+
+.skill-1:hover {
+    transform: translateY(-5px);
+  }
+  
+  .skill-1 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .skill-1 p {
+    margin-bottom: 0;
+  }
+
+
+  .skill-2:hover {
+    transform: translateY(-5px);
+  }
+  
+  .skill-2 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .skill-2:hover p {
+    margin-bottom: 0;
+  }
+
+  .skill-3:hover {
+    transform: translateY(-5px);
+  }
+  
+  .skill-3 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .skill-3:hover p {
+    margin-bottom: 0;
+  }
+
+  .skill-4:hover {
+    transform: translateY(-5px);
+  }
+  
+  .skill-4 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .skill-4:hover p {
+    margin-bottom: 0;
+  }
+
+  .skill-5:hover {
+    transform: translateY(-5px);
+  }
+  
+  .skill-5 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .skill-5:hover p {
+    margin-bottom: 0;
+  }
+
+.pie-de-pagina{
+text-align: center;
+}
+
+
+  .botton-1 {
+    margin-bottom: 2rem;
+    background-color: #161616; 
+    border: none; 
+    color: white; 
+    padding: 12px 24px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+
+
+.botton-1:hover {
+    transform: translateY(-5px);
+  }
+  
+  .botton-1 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  .botton-1:hover p {
+    margin-bottom: 0;
+  }
+
